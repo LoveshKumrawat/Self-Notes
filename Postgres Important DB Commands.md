@@ -25,3 +25,7 @@
 
 	TRUNCATE TABLE <table> RESTART IDENTITY CASCADE;
 ---
+> **Display the User Privileges**
+
+	SELECT * FROM information_schema.table_privileges;
+---
