@@ -29,3 +29,7 @@
 
 	SELECT * FROM information_schema.table_privileges;
 ---
+> **Display the values of Enum**
+
+	SELECT enum_range(NULL::<typeName>);
+---
