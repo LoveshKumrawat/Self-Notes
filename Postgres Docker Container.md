@@ -68,3 +68,11 @@ OR
 
 - **`--dbname` : Optional** *Default connection to the given existing DB `(Default: postgres)`*
 ---
+> **Install `psql` for Remote access to DB**
+
+	sudo apt install postgresql
+---
+> **Remote access to DB**
+
+	psql -h <IPAddress> -p <port> -U postgres
+---
